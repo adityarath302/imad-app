@@ -14,6 +14,7 @@ img.onclick = function(){
 
 var button=document.getElementById('counter');
 var counter=0;
+var request=new XMLHttpRequest();
 button.onclick=function()
 {
     counter=counter+1;
