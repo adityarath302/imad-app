@@ -3,6 +3,11 @@ body {
     background-color: lightgrey;
     margin-top: 75px;
 }
+div 
+{
+     color: #FF0000 ;
+}
+
 
 .center {
     text-align: center;
