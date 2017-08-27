@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articleone =
+var articleOne =
 {
     title:'Article One|Aditya Rath',
     heading: 'Article One',
@@ -21,7 +21,7 @@ var articleone =
             </p>
  `};
  
- var articletwo =
+ var articleTwo =
 {
     title:'Article Two|Aditya Rath',
     heading: 'Article Two',
@@ -36,7 +36,7 @@ var articleone =
             </p>
  `};
  
- var articlethree =
+ var articleThree =
 {
     title:'Article Three|Aditya Rath',
     heading: 'Article Three',
@@ -108,10 +108,10 @@ app.get('/article-one', function (req, res) {
 });
 
 app.get('/article-two', function (req, res) {
-   res.send(createTemplate(articletwo));
+   res.send(createTemplate(articleTwo));
 });
 app.get('/article-three', function (req, res) {
-  res.send(createTemplate(articlethree));
+  res.send(createTemplate(articleThree));
 });
 
 
