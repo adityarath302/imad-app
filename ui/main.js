@@ -32,9 +32,9 @@ button.onclick=function()
             }
         }
         
-    }
+    };
     
-    request.open('GET','http://u16bic002.imad.hasura-app.io/counter',true)
+    request.open('GET','http://u16bic002.imad.hasura-app.io/counter',true);
     
     
     
