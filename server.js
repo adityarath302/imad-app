@@ -28,7 +28,7 @@ var articleOne =
     date:'Sep 5,2016',
     content :
     `<p>
-                My first web page.
+                My second web page.
             </p>
             
             <p>
@@ -43,7 +43,7 @@ var articleOne =
     date:'Sep 5,2016',
     content :
     `<p>
-                My first web page.
+                My third web page.
             </p>
             
             <p>
